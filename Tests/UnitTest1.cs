@@ -25,4 +25,10 @@ public class Tests {
 	{
 		Assert.AreEqual(FizzBuzz.Of(6), "Fizz");
 	}
+
+	[Test]
+	public void FiveReturnsBuzz()
+	{
+		Assert.AreEqual(FizzBuzz.Of(5), "Buzz");
+	}
 }
