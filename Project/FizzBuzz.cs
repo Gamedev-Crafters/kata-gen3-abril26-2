@@ -1,7 +1,7 @@
 ﻿namespace Project;
 
 public static class FizzBuzz {
-	public static string FizzBuzzConverter(int i)
+	public static string Of(int i)
 	{
 		if (i % 3 == 0)
 		{
