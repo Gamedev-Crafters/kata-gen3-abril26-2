@@ -1,4 +1,4 @@
-﻿namespace Tests;
+﻿namespace Project;
 
 public static class FizzBuzz {
 	public static string FizzBuzzConverter(int i)

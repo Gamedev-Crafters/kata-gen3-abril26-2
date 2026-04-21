@@ -1,3 +1,5 @@
+using Project;
+
 namespace Tests;
 
 public class Tests {
