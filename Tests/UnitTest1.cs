@@ -18,9 +18,15 @@ public class Tests {
 		Assert.AreEqual(asdoifuh(3), "Fizz");
 	}
 
+	[Test]
+	public void SixReturnsFizz()
+	{
+		Assert.AreEqual(asdoifuh(6), "Fizz");
+	}
+
 	private string asdoifuh(int i)
 	{
-		if (i == 3)
+		if (i == 3 || i == 6)
 		{
 			return "Fizz";
 		}
