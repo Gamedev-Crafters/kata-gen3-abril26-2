@@ -31,4 +31,28 @@ public class Tests {
 	{
 		Assert.AreEqual(FizzBuzz.Of(5), "Buzz");
 	}
+
+	[Test]
+	public void TenReturnsBuzz()
+	{
+		Assert.AreEqual(FizzBuzz.Of(10), "Buzz");
+	}
+
+	[Test]
+	public void FifteenReturnsFizzBuzz()
+	{
+		Assert.AreEqual("FizzBuzz", FizzBuzz.Of(15));
+	}
+
+	[Test]
+	public void ThirtyReturnsFizzBuzz()
+	{
+		Assert.AreEqual("FizzBuzz", FizzBuzz.Of(30));
+	}
+
+	[Test]
+	public void FourtyFiveRetunsFizzBuzz()
+	{
+		Assert.AreEqual("FizzBuzz", FizzBuzz.Of(45));
+	}
 }
