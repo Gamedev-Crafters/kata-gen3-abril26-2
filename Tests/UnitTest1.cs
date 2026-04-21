@@ -12,8 +12,18 @@ public class Tests {
 		Assert.AreEqual(asdoifuh(2), "2");
 	}
 
+	[Test]
+	public void ThreeReturnsFizz()
+	{
+		Assert.AreEqual(asdoifuh(3), "Fizz");
+	}
+
 	private string asdoifuh(int i)
 	{
+		if (i == 3)
+		{
+			return "Fizz";
+		}
 		return i.ToString();
 	}
 }
