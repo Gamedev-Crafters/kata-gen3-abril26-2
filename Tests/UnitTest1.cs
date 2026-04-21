@@ -26,7 +26,7 @@ public class Tests {
 
 	private string FizzBuzzConverter(int i)
 	{
-		if (i == 3 || i == 6)
+		if (i % 3 == 0)
 		{
 			return "Fizz";
 		}
